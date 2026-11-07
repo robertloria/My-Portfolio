@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">MyPortfolio<span>.</span></h2>
+            <button class="menu-btn" id="menuBtn">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hello, I'm <span>Robert Loria</span></h1>
+            <h2>A Student and Future Web Developer</h2>
+            <p>
+                Welcome to my personal portfolio!
+                I am a student who enjoys learning about
+                technology, computers, and web development.
+            </p>
+            <a href="#about" class="btn">Discover More</a>
+        </div>
+    </section>
+
+    <section class="about section" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="profile-icon">👨‍💻</div>
+            <h3>Who Am I?</h3>
+            <p>
+                I am a student who is interested in technology
+                and programming. I enjoy discovering new things,
+                improving my skills, and creating simple projects.
+                My goal is to become better at web development
+                and learn more about the world of technology.
+            </p>
+        </div>
+    </section>
+
+    <section class="skills section" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skill-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Creating the structure of websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Designing and styling web pages.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Adding interactive features to websites.</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Problem Solving</h3>
+                <p>Learning how to solve problems through coding.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects section" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="project-container">
+            <div class="project-card">
+                <div class="project-icon">🧮</div>
+                <h3>Basic Calculator</h3>
+                <p>
+                    A simple calculator website created using
+                    HTML, CSS, and JavaScript. It can perform
+                    basic mathematical operations.
+                </p>
+                <a href="https://robertloria.github.io/Basic-Calculator-/"
+                   target="_blank" class="project-btn">
+                    View Project
+                </a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">💻</div>
+                <h3>Personal Portfolio</h3>
+                <p>
+                    My personal portfolio website where I
+                    introduce myself and showcase my skills
+                    and projects.
+                </p>
+                <span class="project-label">Current Project</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <p>
+            Thank you for visiting my portfolio!
+            Feel free to connect with me.
+        </p>
+        <div class="contact-info">
+            <p>Email: loriarobert820@gmail.com</p>
+            <p>GitHub: github.com/robertloria</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Robert Loria. All Rights Reserved.</p>
+        <p>Created with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
